@@ -6,7 +6,7 @@ from mysql.connector import Error
 def get_connection():
     try:
         conn = mysql.connector.connect(
-            host="127.0.0.1",         # Replace with your host (e.g., "127.0.0.1")
+            host="0.0.0.0",         # Replace with your host (e.g., "127.0.0.1")
             user="app",               # Your username
             password="qwEr!@#$09",    # Your password
             database="test_db"        # Your database name
